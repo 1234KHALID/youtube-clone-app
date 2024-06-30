@@ -38,7 +38,7 @@ const Navbar = ({ setColor }) => {
         </Typography>
       </Link>
       <Stack direction="row" alignItems="center">
-        <Toggle handleToggle={handleToggle} />
+        {/* <Toggle handleToggle={handleToggle} /> */}
         <SearchBar />
       </Stack>
     </Stack>
